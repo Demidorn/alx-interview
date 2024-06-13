@@ -1,6 +1,8 @@
-def minOperations(n):
-    """Function that calculates the minimum operations
+"""Function that calculates the minimum operations
     needed to reach n"""
+
+
+def minOperations(n):
     if n < 2:
         return 0
     operations = 0
