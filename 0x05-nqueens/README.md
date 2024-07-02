@@ -56,10 +56,10 @@ Prints the solutions.<br>
 *Function Definitions*
 * *is_safe(board, row, col):* Checks if placing a queen at (row, col) is safe.<br>
 * *solve_nqueens(board, row, n, solutions):* Recursively solves the N Queens problem.<br>
-* *print_solutions(solutions, n):* Prints the list of solutions.<br>
+* *print_solutions(solutions, n):* Prints the list of solutions.<br><br>
 **Algorithm**
 The algorithm uses backtracking to place queens one by one in different rows,<br> starting from the first row. It checks for clashes with already placed queens<br> and proceeds if the position is safe. If all queens are placed successfully,<br> it records the solution.<br>
-**Contributing**
+#### **Contributing** <br>
 If you would like to contribute to this project, please fork the repository and<br> create a pull request with your changes. I welcome all improvements and <br>suggestions!
 
 **Author**
