@@ -57,11 +57,12 @@ The “0. Star Wars Characters” project requires you to interact with an exter
 ### Tasks
 Star Wars Characters <br>
 In your Repository ```alx-interview```, create a directory ```0x06-starwars_api``` <br> and in file ```0-starwars_characters.js``` write your code as instructed below.<br>
-|-------- |---------- |
-| Task | *Description* |
-|------ |--------------- |
-| Write a script that prints all <br> characters of a Star Wars movie: | - The first positional argument passed is the <br>Movie ID - example: *3* = “Return of the Jedi”<br> - Display one character name per<br> line **in the same order as the “characters” list in the /films/ endpoint**<br> - You must use the [Star wars API](https://intranet.alxswe.com/rltoken/gh_NaSUk9QlXHVoACFU-tg)<br> - You must use the ```request``` module |
-|----------- |-------------- |
+Write a script that prints all  characters of a Star Wars movie: 
+ - The first positional argument passed is the Movie <br>ID - example: *3* = “Return of the Jedi”<br> 
+ - Display one character name per<br> line **in the same order as the “characters” <br>list in the /films/ endpoint**
+ - You must use the [Star wars API](https://intranet.alxswe.com/rltoken/gh_NaSUk9QlXHVoACFU-tg) 
+ - You must use the ```request``` module |
+
 
 #### Example output
 ```./0-starwars_characters.js 3
