@@ -5,6 +5,7 @@
 - [0x03. Minimum Operations](https://github.com/Demidorn/alx-interview/tree/main/0x02-minimum_operations)
 - [0x04-utf8_validation](https://github.com/Demidorn/alx-interview/tree/main/0x04-utf8_validation)
 - [0x05. N Queens](https://github.com/Demidorn/alx-interview/tree/main/0x05-nqueens)
+- [0x06-starwars_api](https://github.com/Demidorn/alx-interview/tree/main/0x06-starwars_api)
 
 #### **Contributing** <br>
 If you would like to contribute to these projects, please fork the repository and create a pull request with <br>your changes. I welcome all improvements and suggestions!
