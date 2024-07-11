@@ -8,7 +8,7 @@ const fetchCharacters = (movieId) => {
 
   request(baseUrl, (error, response, body) => {
     if (error) throw error;
-    if (response.statusCode == 200) {
+    if (response.statusCode === 200) {
       const movieData = JSON.parse(body);
       const characterUrls = movieData.characters;
       exactOrder(characterUrls, 0);
@@ -22,7 +22,7 @@ const exactOrder = (actors, index) => {
   if (index === actors.length) return;
   request(actors[index], (error, response, body) => {
     if (error) throw error;
-    if (response.statusCode == 200) {
+    if (response.statusCode === 200) {
       const characterData = JSON.parse(body);
       console.log(characterData.name);
       exactOrder(actors, index + 1);
