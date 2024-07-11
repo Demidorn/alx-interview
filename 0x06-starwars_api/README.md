@@ -38,21 +38,23 @@ The “0. Star Wars Characters” project requires you to interact with an exter
 
 ### More info
 - Install Node 10
-``` {
-    $ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-    $ sudo apt-get install -y nodejs
-}```
+``` bash 
+$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+$ sudo apt-get install -y nodejs
+```
 
 - Install semi-standard
 [Documentation](https://intranet.alxswe.com/rltoken/WjMvQfBMKBdsNUuHyg55Dw)
-```$ sudo npm install semistandard --global```
+``` bash
+$ sudo npm install semistandard --global
+```
 
 - Install ```request``` module and use it
 [Install request module and use it](https://intranet.alxswe.com/rltoken/BWz2gc45S-nZaxEY6GA6Zw)
-``` {
+``` bash
     $ sudo npm install request --global
     $ export NODE_PATH=/usr/lib/node_modules
-}```
+```
 
 ### Tasks
 Star Wars Characters <br>
@@ -65,7 +67,8 @@ Write a script that prints all  characters of a Star Wars movie:
 
 
 #### Example output
-```./0-starwars_characters.js 3
+``` bash
+./0-starwars_characters.js 3
 Luke Skywalker
 C-3PO
 R2-D2
@@ -85,7 +88,8 @@ Mon Mothma
 Arvel Crynyd
 Wicket Systri Warrick
 Nien Nunb
-Bib Fortuna```
+Bib Fortuna
+```
 
 
 **Author**
