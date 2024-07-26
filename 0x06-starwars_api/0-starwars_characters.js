@@ -4,7 +4,6 @@ const request = require('request');
 
 const fetchCharacters = (movieId) => {
   const baseUrl = `https://swapi.dev/api/films/${movieId}/`;
-//	const baseUrl = `https://swapi-api.hbtn.io/api/`;
 
   request(baseUrl, (error, response, body) => {
     if (error) throw error;
