@@ -1,5 +1,7 @@
 def island_perimeter(grid):
-    """a function that that returns the perimeter of the island described in grid"""
+    """a function that that returns the perimeter
+    of the island described in grid
+    """
     if not grid or not grid[0]:
         return 0
 
